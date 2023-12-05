@@ -1,4 +1,4 @@
-apiVersion: apps/v1 
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: users-api-deployment
@@ -10,16 +10,11 @@ spec:
   template:
     metadata:
       labels:
-        app: users-api 
-    spec: 
+        app: users-api
+    spec:
       containers:
         - name: users-api
           image: slobodang/kub-demo-users-api
-          env: 
+          env:
             - name: AUTH_ADDRESS
               value: localhost
-        - name: auth-api 
-          image: slobodang/kub-demo-auth-api
-
-
-
