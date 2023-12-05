@@ -15,6 +15,11 @@ spec:
       containers:
         - name: users-api
           image: slobodang/kub-demo-users-api
+          env: 
+            - name: AUTH_ADDRESS
+              value: localhost
+        - name: auth-api 
+          image: slobodang/kub-demo-auth-api
 
 
 
