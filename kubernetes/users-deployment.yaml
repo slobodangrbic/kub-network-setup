@@ -17,4 +17,5 @@ spec:
           image: slobodang/kub-demo-users-api
           env:
             - name: AUTH_ADDRESS
-              value: 10.102.45.247 
+              # value: 10.102.45.247 
+              value: "auth-api-service.default"
