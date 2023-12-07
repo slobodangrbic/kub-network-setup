@@ -17,4 +17,4 @@ spec:
           image: slobodang/kub-demo-users-api
           env:
             - name: AUTH_ADDRESS
-              value: localhost
+              value: 10.102.45.247 
