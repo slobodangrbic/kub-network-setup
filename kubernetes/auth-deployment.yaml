@@ -14,7 +14,7 @@ spec:
     spec: 
       containers:
         - name: auth-api 
-          image: docker.io/slobodang/auth-api:v0.0.23
+          image: docker.io/slobodang/auth-api:v0.0.24
 
 
 
