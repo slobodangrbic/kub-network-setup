@@ -1,5 +1,4 @@
-FROM sha256:37ff334612f77d8f999c10af8797727b731629c26f2e83caa6af390998bdc49c
-
+FROM node:lts-bullseye
 WORKDIR /app
 
 COPY package.json .
